@@ -4,7 +4,7 @@ export const Projects = () => {
   return (
     <section
       id="projects"
-      className="min-h-screen flex items-center justify-center py-20 [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)] text-gray-100"
+      className="min-h-screen flex items-center justify-center py-20 [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)] text-gray-100  "
     >
       <RevealOnScroll>
         <div className="max-w-5xl mx-auto px-4">
@@ -16,11 +16,11 @@ export const Projects = () => {
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
               <h3 className="text-xl font-bold mb-2"> Cloud Platform</h3>
               <p className="text-gray-400 mb-4">
-                Scalable cloud infrastructure management with real-time
-                monitoring and automated scaling.
+                Scalable cloud infrastructure management in AWS 
+                infrastructure with threshold alerts and automated scaling.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["React", "Node.js", "AWS", "Docker"].map((tech, key) => (
+                {["AWS","Auto-Scaling", "NLB", "VPC", "CloudWatch"].map((tech, key) => (
                   <span
                     key={key}
                     className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
@@ -32,14 +32,6 @@ export const Projects = () => {
                 ))}
               </div>
 
-              <div className="flex justify-between items-center">
-                <a
-                  href="#"
-                  className="text-blue-400 hover:text-blue-300 transition-colors my-4"
-                >
-                  View Project →
-                </a>
-              </div>
             </div>
             <div
               className="
@@ -51,8 +43,7 @@ export const Projects = () => {
             >
               <h3 className="text-xl font-bold mb-2">AI Analytics Dashboard</h3>
               <p className="text-gray-400 mb-4">
-                ML-powered data visualization platform with predictive analytics
-                and interactive reports.
+                ML-powered data visualization platform using nodered in IBM Bluemix
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {["Python", "TensorFlow", "D3.js", "Flask"].map((tech, key) => (
@@ -70,14 +61,7 @@ export const Projects = () => {
                   </span>
                 ))}
               </div>
-              <div className="flex justify-between items-center">
-                <a
-                  href="#"
-                  className="text-blue-400 hover:text-blue-300 transition-colors my-4"
-                >
-                  View Project →
-                </a>
-              </div>
+=
             </div>
 
             <div
@@ -88,10 +72,10 @@ export const Projects = () => {
               transition-all
             "
             >
-              <h3 className="text-xl font-bold mb-2">E-Commerce Web App</h3>
+              <h3 className="text-xl font-bold mb-2">Video application testing automation tool</h3>
               <p className="text-gray-400 mb-4">
-                Full-stack e-commerce with modern UI, secure payment
-                integration, and customizable product inventory.
+                Deployment and maintaenanc of QoEtient a Video application 
+                testing automation tool, product of Tata elxsi. Which is similar to AWS device Farm
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {["Next.js", "TypeScript", "Stripe", "PostgreSQL"].map(
@@ -111,14 +95,6 @@ export const Projects = () => {
                   )
                 )}
               </div>
-              <div className="flex justify-between items-center">
-                <a
-                  href="#"
-                  className="text-blue-400 hover:text-blue-300 transition-colors my-4"
-                >
-                  View Project →
-                </a>
-              </div>
             </div>
 
             <div
@@ -132,12 +108,12 @@ export const Projects = () => {
               <h3 className="text-xl font-bold mb-2">Real-Time Chat App</h3>
               <p className="text-gray-400 mb-4">
                 Scalable chat platform supporting real-time messaging, presence,
-                and group chat features.
+                and group chat features using IBM watson chatbot.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["Socket.IO", "Express", "React", "Redis"].map((tech, key) => (
+                {["IBM Bluemix", "Wastson"].map((tech, key) => (
                   <span
-                    key={key}
+                    key={key} 
                     className="
                       bg-blue-500/10 text-blue-500 py-1 px-3 
                       rounded-full text-sm
@@ -149,14 +125,6 @@ export const Projects = () => {
                     {tech}
                   </span>
                 ))}
-              </div>
-              <div className="flex justify-between items-center ">
-                <a
-                  href="#"
-                  className="text-blue-400 hover:text-blue-300 transition-colors my-4"
-                >
-                  View Project →
-                </a>
               </div>
             </div>
           </div>

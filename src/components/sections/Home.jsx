@@ -13,7 +13,7 @@ export const Home = () => {
           </h1>
 
           <p className="tex-gray-400 text-lg mb-8 max-w-lg mx-auto">
-            I’m a devops infrastructure and deployment engineer for web
+            I'm a devops infrastructure and deployment engineer for web
             applications. As a DevOps Deployment Engineer, I strive to streamline software delivery processes and ensure seamless, reliable deployments for robust and scalable applications.
           </p>
           <div className="flex justify-center space-x-4">
