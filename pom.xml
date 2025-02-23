@@ -9,7 +9,7 @@
     <packaging>jar</packaging>
 
     <name>portifolio</name>
-    <description>Demo project for Spring Boot Shopping Cart</description>
+    <description>Demo project for Spring Boot portifolio</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
