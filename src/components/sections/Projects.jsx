@@ -61,7 +61,6 @@ export const Projects = () => {
                   </span>
                 ))}
               </div>
-=
             </div>
 
             <div
