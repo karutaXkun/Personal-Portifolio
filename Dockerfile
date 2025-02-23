@@ -1,10 +1,12 @@
 FROM node:22-alpine
 
 WORKDIR /.
-RUN npm run dev
+
 COPY package.json .
 COPY package-lock.json .
-RUN npm install
+RUN npm ci
+COPY /.
+RUN npm run dev
 From httpd:alpine
 WORKDIR /usr/local/apache2/htdocs
 COPY --from build /build/build/ .
