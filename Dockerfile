@@ -1,6 +1,6 @@
 FROM node:22-alpine
 
-WORKDIR /usr/src/app
+WORKDIR /.
 RUN npm run dev
 COPY package.json .
 COPY package-lock.json .
